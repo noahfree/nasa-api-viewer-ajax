@@ -1,0 +1,178 @@
+* {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+body {
+    background-color: black;
+    font-family: 'Orbitron', 'Space Mono', monospace, sans-serif;
+}
+
+h1 {
+    color: ghostwhite;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 30px;
+    font-weight: 300;
+    margin: 25px;
+}
+
+h2 {
+    color: ghostwhite;
+    text-align: center;
+    letter-spacing: 1.5px;
+    margin: 10px;
+    padding: 5px;
+}
+
+h3 {
+    width: 171.56px;
+    background-color: ghostwhite;
+    font-size: 25px;
+    font-weight: 400;
+    margin: 40px;
+    padding: 5px;
+}
+
+#title, .group {
+    margin: 0 auto;
+    padding: 10px;
+}
+
+#back {
+    color: black;
+    text-decoration: none;
+}
+
+.group {
+    width: 80%;
+    height: 410px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.content {
+    width: 70%;
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.arrow {
+    margin-top: 175px;
+    height: 40px;
+    cursor: pointer;
+}
+
+#nav {
+    border: 2px solid floralwhite;
+    box-shadow: 0 5px 8px white;
+    margin: 30px 14% 75px 14%;
+}
+
+form {
+    color: white;
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+input, select {
+    height: 25px;
+    width: 200px;
+    font-size: 15px;
+    font-family: 'Orbitron', 'Space Mono', monospace, sans-serif;
+}
+
+.displayFlex {
+    display: flex;
+    margin: 0 auto;
+}
+
+.formElement {
+    margin: 40px 40px 20px 40px;
+}
+
+#queryAPI {
+    font-size: 20px;
+    font-family: 'Orbitron', 'Space Mono', monospace, sans-serif;
+    width: 200px;
+    height: 30px;
+    margin: 20px auto;
+}
+
+#infoMenu {
+    margin: 0 auto 30px auto;
+}
+
+#rovers {
+    margin: 0 14% 50px 14%;
+    
+}
+
+#rovers h4 {
+    letter-spacing: 5px;
+}
+
+#rovers div {
+    font-size: 14px;
+    line-height: 1.75;
+    letter-spacing: 1px;
+    text-align: justify;
+    border: 2px solid floralwhite;
+    box-shadow: 0 5px 8px white;
+    padding: 15px 10px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+#rovers p {
+    overflow: hidden;
+}
+
+#rovers img {
+    width: 175px;
+    height: 175px;
+    margin: 10px 10px 0 20px;
+    float: right;
+    clear: right;
+}
+
+/* loader code was taken from Professor Wergeles' lecture 'loadingFeedback.html' */
+#infoLoader, #photoLoader {
+    display: none;
+    width: 100px;
+    margin: 30px auto 0 auto;
+}
+.loadNode {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    border-radius: 100%;
+    margin: 10px 5px;
+    transition: background-color .2s;
+}
+.loadNode:nth-of-type(1) {
+    background-color: #aaa;
+}
+.loadNode:nth-of-type(2) {
+    background-color: #777;
+}
+.loadNode:nth-of-type(3) {
+    background-color: #333;
+}
+
+#creator {
+    width: 100%;
+    color: ghostwhite;
+    font-size: 15px;
+    letter-spacing: 2.5px;
+    padding: 30px;
+}
+
